@@ -81,10 +81,10 @@ int InputParsedIntNumber()
 //Метод проверки корректного ввода и исключения 0.
 int ChekingNumberForPositive(int number)
 {
-    if (number < 1)
+    if (number < 1 || number > 9999999)
     {
         Console.WriteLine("Uncorrect number");
-        while (number < 1)
+        while (number < 1 || number > 9999999)
         {
             MessageForAmountWords();
             number = InputParsedIntNumber();
