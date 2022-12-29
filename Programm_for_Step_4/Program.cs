@@ -6,18 +6,19 @@ Random random = new Random();
 MessageForAmountWords();
 int amountWords = InputParsedIntNumber();
 amountWords = ChekingNumberForPositive(amountWords);
-
+int count = 0;
 string[] wordArray = GenerateRandomWords(amountWords);
 Console.WriteLine("The following words were created: [serial_number]<word>");
 PrintArray(wordArray);
-
-string[] newWord3Array = SelectedWordsShort3Symbols(wordArray);
+Console.WriteLine();
+string[] newWord3Array = SelectedWordsShort3Symbols(wordArray, out count);
 PrintArray(newWord3Array);
+MessageForCount3SymbleWord(count);
 
 // Метод для отбора строк длиной 3 символа и меньше.
-string[] SelectedWordsShort3Symbols(string[] array)
+string[] SelectedWordsShort3Symbols(string[] array, out int count)
 {
-    int count = 0;
+    count = 0;
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i].Length <= 3)
@@ -28,7 +29,6 @@ string[] SelectedWordsShort3Symbols(string[] array)
     if (count == 0) MessageForZeroArray();
     else
     {
-        MessageForCount3SymbleWord(count);
         int j = 0;
         for (int i = 0; i < array.Length; i++)
         {
