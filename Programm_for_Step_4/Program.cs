@@ -28,8 +28,7 @@ string[] SelectedWordsShort3Symbols(string[] array, out int count)
     }
 
     string[] newArray = new string[count];
-    if (count == 0) MessageResult(count);
-    else
+    if (count != 0)
     {
         int j = 0;
         for (int i = 0; i < array.Length; i++)
