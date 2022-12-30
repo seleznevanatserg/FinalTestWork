@@ -37,8 +37,8 @@ public class Method
         string[] array = new string[num];
         for (int i = 0; i < array.Length; i++)
         {
-            int rnd = random.Next(1, 7);
-            array[i] = RandomWord(rnd);
+            int lenghtWord = random.Next(1, 7);
+            array[i] = RandomWord(lenghtWord);
         }
         return array;
     }
@@ -51,11 +51,11 @@ public class Method
     }
 
     // Метод генерации слова (набора символов) путём выбора случайных элементов строки.
-    public static string RandomWord(int rnd, string rndWord = "")
+    public static string RandomWord(int lenghtWord, string rndWord = "")
     {
         Random random = new Random();
         string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-        if (rnd > 0) rndWord = rndWord + alphabet[random.Next(0, alphabet.Length)] + RandomWord(rnd - 1);
+        if (lenghtWord > 0) rndWord = rndWord + alphabet[random.Next(0, alphabet.Length)] + RandomWord(lenghtWord - 1);
         return rndWord;
     }
 
