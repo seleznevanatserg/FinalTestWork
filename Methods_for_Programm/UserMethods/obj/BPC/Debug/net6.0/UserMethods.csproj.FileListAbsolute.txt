@@ -1,0 +1,12 @@
+C:\1Stud_GB\1_ResumeBlock_SelectedSpecial\Methods_for_Programm\UserMethods\bin\BPC\Debug\net6.0\UserMethods.deps.json
+C:\1Stud_GB\1_ResumeBlock_SelectedSpecial\Methods_for_Programm\UserMethods\bin\BPC\Debug\net6.0\UserMethods.dll
+C:\1Stud_GB\1_ResumeBlock_SelectedSpecial\Methods_for_Programm\UserMethods\bin\BPC\Debug\net6.0\UserMethods.pdb
+C:\1Stud_GB\1_ResumeBlock_SelectedSpecial\Methods_for_Programm\UserMethods\obj\BPC\Debug\net6.0\UserMethods.csproj.AssemblyReference.cache
+C:\1Stud_GB\1_ResumeBlock_SelectedSpecial\Methods_for_Programm\UserMethods\obj\BPC\Debug\net6.0\UserMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\1Stud_GB\1_ResumeBlock_SelectedSpecial\Methods_for_Programm\UserMethods\obj\BPC\Debug\net6.0\UserMethods.AssemblyInfoInputs.cache
+C:\1Stud_GB\1_ResumeBlock_SelectedSpecial\Methods_for_Programm\UserMethods\obj\BPC\Debug\net6.0\UserMethods.AssemblyInfo.cs
+C:\1Stud_GB\1_ResumeBlock_SelectedSpecial\Methods_for_Programm\UserMethods\obj\BPC\Debug\net6.0\UserMethods.csproj.CoreCompileInputs.cache
+C:\1Stud_GB\1_ResumeBlock_SelectedSpecial\Methods_for_Programm\UserMethods\obj\BPC\Debug\net6.0\UserMethods.dll
+C:\1Stud_GB\1_ResumeBlock_SelectedSpecial\Methods_for_Programm\UserMethods\obj\BPC\Debug\net6.0\refint\UserMethods.dll
+C:\1Stud_GB\1_ResumeBlock_SelectedSpecial\Methods_for_Programm\UserMethods\obj\BPC\Debug\net6.0\UserMethods.pdb
+C:\1Stud_GB\1_ResumeBlock_SelectedSpecial\Methods_for_Programm\UserMethods\obj\BPC\Debug\net6.0\ref\UserMethods.dll
