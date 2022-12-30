@@ -2,6 +2,7 @@
 длина которых меньше или равна 3 символа. */
 
 using static UserMethods.Method;
+
 Random random = new Random();
 string msgAmountWords = "Enter number for amount generate words, please. It's number > 0.";
 Console.WriteLine(msgAmountWords);

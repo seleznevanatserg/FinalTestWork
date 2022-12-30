@@ -1,8 +1,7 @@
 ﻿namespace UserMethods;
-
 public class Method
-{
 
+{
     // Метод считывания из строки ввода и преобразования число.
     public static int InputParsedIntNumber()
     {
@@ -10,8 +9,6 @@ public class Method
         if (!isParsed) return 0;
         else return num;
     }
-
- 
 
     //Метод проверки корректного ввода и исключения 0.
     public static int ChekingNumberForPositive(int number, string msgOfError = "")
@@ -27,8 +24,6 @@ public class Method
         }
         return number;
     }
-
-
 
     // Метод для формирования исходного однострочного массива строк.
     public static string[] GenerateRandomWords(int num)
@@ -58,7 +53,4 @@ public class Method
         if (lenghtWord > 0) rndWord = rndWord + alphabet[random.Next(0, alphabet.Length)] + RandomWord(lenghtWord - 1);
         return rndWord;
     }
-
-
-
 }
