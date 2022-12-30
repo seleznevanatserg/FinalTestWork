@@ -15,7 +15,7 @@ PrintArray(wordArray);
 Console.WriteLine();
 string[] newWord3Array = SelectedWordsShort3Symbols(wordArray, out count);
 PrintArray(newWord3Array);
-MessageForCount3SymbleWord(count);
+MessageResult(count);
 
 // Метод для отбора строк длиной 3 символа и меньше.
 string[] SelectedWordsShort3Symbols(string[] array, out int count)
@@ -28,7 +28,7 @@ string[] SelectedWordsShort3Symbols(string[] array, out int count)
     }
 
     string[] newArray = new string[count];
-    if (count == 0) MessageForZeroArray();
+    if (count == 0) MessageResult(count);
     else
     {
         int j = 0;
@@ -46,17 +46,20 @@ string[] SelectedWordsShort3Symbols(string[] array, out int count)
 }
 
 
-// Методы сообщений 
+// Метод сообщений 
 // Сообщение о количестве обнаруженных строк длиной 3 символа и меньше.
-void MessageForCount3SymbleWord(int count)
+void MessageResult (int count)
 {
+    if (count != 0)
+    {
     string msgCountWord = "Found the number of words with a length of 3 characters or less: ";
-    Console.WriteLine(msgCountWord + count);
+        Console.WriteLine(msgCountWord + count);
+    }
+    else
+    {
+        string msgZeroArr = "Sorry, but this array don't have words long 3 symbols and less.";
+        Console.WriteLine(msgZeroArr);
+    }
 }
-// Сообщение о нулевом массиве в случае если не обнаружено строк длиной 3 символа и меньше.
-void MessageForZeroArray()
-{
-    string msgZeroArr = "Sorry, but this array don't have words long 3 symbols and less.";
-    Console.WriteLine(msgZeroArr);
-}
+
 
